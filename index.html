@@ -4,7 +4,7 @@
 
  <HEAD>
 
-  <TITLE> Tặng bé yêu </TITLE>
+  <TITLE> Tặng Thiên Kim Tiểu Thơ</TITLE>
 
   <META NAME="Generator" CONTENT="EditPlus">
 
@@ -37,12 +37,58 @@ canvas {
   height: 100%;
 
 }
+
+div.container-button{
+  position:  absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.container-button button{
+  padding: 15px 45px;
+  outline: none;
+  border: none;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+}
+div.container-button button:hover{
+  transition: all 0.4s;
+  border-radius: 15px;
+  box-shadow: inset 0 0 4px 2px #fff;
+}
+
+h1{
+  width: 100vw;
+  position: absolute;
+  margin-top: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
   </style>
 
  </HEAD>
 
 
  <BODY>
+
+
+  <h1>Võ Nguyễn Thiên Kim</h1>
+
+  <div class="container-button">
+    <button> Du me lop you ???</button>
+    <button> Me don lop you !!!</button>
+  </div>
+
   <canvas id="pinkboard"></canvas>
 
   <script>
